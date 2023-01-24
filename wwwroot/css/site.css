@@ -1,0 +1,67 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+h1.title {
+    margin: 2.1em;
+    color: rgb(32, 35, 41);
+    border: none;
+    font-weight: 900;
+    z-index: 1;
+    font-size: 6.4rem;
+    text-align: center;
+}
+
+.isMAic .status {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.status__icon {
+    height: 0.7em;
+    width: 0.7em;
+    border-radius: 50%;
+    display: inline-block;
+}
+.alive {
+    background: rgb(85, 204, 68);
+}
+
+.dead {
+    background: rgb(214, 61, 46);
+}
+
+.unknown {
+    background: #bbb;
+}
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.insideContainer {
+    padding: 5em 25em;
+}
+
+.mainWrapper {
+    background: rgb(60, 62, 68);
+    border-radius: 0.5rem;
+    color: #ffffff;
+}
